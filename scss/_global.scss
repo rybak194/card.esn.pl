@@ -78,7 +78,7 @@ section {
   }
 }
 
-section.success {
+section.get-your-card {
   color: white;
   background: $theme-success;
 }
@@ -88,6 +88,11 @@ section.success {
   }
   section.first {
     padding-top: 75px;
+  }
+}
+@media(max-width:767px) {
+  .apply-block{
+    margin: auto auto 60px;
   }
 }
 

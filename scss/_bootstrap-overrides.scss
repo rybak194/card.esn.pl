@@ -1,7 +1,8 @@
 // Bootstrap overrides for this template
 .btn-outline {
   font-size: 20px;
-  margin-top: 15px;
+  font-weight: 700;
+  display: block;
   transition: all 0.3s ease-in-out;
   color: white;
   border: solid 2px white;
@@ -22,7 +23,7 @@
 }
 
 .btn-success {
-  font-weight: 700;
+  font-weight: 1000;
   @include button-variant(white, $theme-success, $theme-success);
 }
 
