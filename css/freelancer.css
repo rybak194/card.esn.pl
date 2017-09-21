@@ -103,6 +103,10 @@ section.get-your-card {
     .scroll-top .btn:focus {
       outline: none; }
 
+a {
+  text-decoration: none;
+  color: #2E3192; }
+
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
