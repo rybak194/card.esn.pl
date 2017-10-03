@@ -17,6 +17,13 @@
   }
 }
 
+.btn-instruction {
+  background: $theme-primary;
+  &:hover {
+    color: $theme-primary;
+  }
+}
+
 .btn-primary {
   font-weight: 700;
   @include button-variant(white, $theme-primary, $theme-primary);

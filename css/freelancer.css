@@ -86,6 +86,10 @@ section.get-your-card {
   .apply-block {
     margin: auto auto 60px; } }
 
+.instruction-block {
+  margin: 20px auto auto;
+  float: none; }
+
 .scroll-top {
   position: fixed;
   z-index: 1049;
@@ -362,6 +366,11 @@ footer {
     color: #00aef0;
     border: solid 2px white;
     background: white; }
+
+.btn-instruction {
+  background: #2E3192; }
+  .btn-instruction:hover {
+    color: #2E3192; }
 
 .btn-primary {
   font-weight: 700;
